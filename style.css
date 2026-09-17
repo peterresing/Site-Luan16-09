@@ -126,3 +126,38 @@ a:focus-visible{
     background-color: transparent;
     color: var(--cor-destaque);
 }
+
+.servicos{
+    max-width: var(--largura-maxima);
+    margin: 0 auto;
+    padding: 56px 24px;
+}
+
+.servicos h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.grade-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.card{
+    background-color: var(--cor-fundo-suave);
+    border-radius: var(--raio);
+    padding: 24px;
+}
+
+.card h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 14px;
+    color: var(--cor-texto-suave);
+}
+
+
